@@ -1,0 +1,16 @@
+# calcular el area de un triangulo
+# DATOS:
+
+'''
+B = base
+A = altura
+AREA = (B*H)/2
+
+'''
+
+B = float(input('ingrese la base: '))
+H = float(input('ingrese la altura: '))
+
+AREA = (B*H)/2
+
+print('el resultado del area es: '+str(AREA))+
