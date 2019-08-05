@@ -1,0 +1,21 @@
+# Calcular el volumen de un prisma
+
+# DATOS:
+
+"""
+B = base
+H =altura
+Area = (P*A)/2
+P = perimetro
+A = Apotema
+Volumen = AREA*H
+
+"""
+
+P = float(input('ingrese el perimetro de la base: '))
+A = float(input('ingrese la Apotema de la base: '))
+H = float(input('ingrese la altura: '))
+
+Area = P*A
+
+print('el resultado del Volumen es: '+str(Area*H))
